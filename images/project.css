@@ -1,0 +1,150 @@
+/*nav title*/
+*{
+    font-family: fantasy;
+}
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+    
+}
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 30px;
+   
+}
+.nav-title>ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    
+}
+.nav-title>h1{
+    font-size: 30px;
+    font-family: fantasy;
+}
+/*center styles*/
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.center-title{
+    text-align: center;
+    font-size: 25px;
+    
+}
+.center-des{
+    color: darkgray;
+}
+.center-btn{
+    background-color: orangered;
+    height: 40px;
+    width: 150px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.banner
+{
+
+    height: 300px;
+    width: 1000px;
+    margin: 5px 100px 20px ;
+}
+.team-album{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+
+}
+.team-album>img{
+    height: 200px;
+    width: 200px;
+}
+.main{
+    display: flex;
+    margin:10px 200px 10px;
+}
+.main-container{
+    text-align: left;
+    margin:50px 10px 5px ;
+}
+.text-clr{
+    color:#727272;
+    font-size: 25px;
+    font-width:50px;
+}
+.text-decor{
+    color:#FF900E;
+    font-size: 30px;
+}
+.main-para{
+    color: #727272;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-btn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF900E;
+    color: white;
+    padding: 10px;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 600px;
+  
+}
+
+.archi{
+   
+  height: 500px;
+ width: 400px;
+margin-right: 500px;
+}
+.mid-title{
+    font-size: 30px;
+    font-weight: 200px;
+    margin: ;
+}
+.mid-des{
+    color: #727272;
+    font-size: 15px;
+    font-weight: 50px;
+}
+.mid-box{
+    font-size:15px;
+}
+p{
+    color:darkgray;
+    font-size: 10px;
+}
+.years{
+    background-color: #FF900E;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.formet{
+    margin-top: 200px;
+}
+.icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 200px;
+  
+}
